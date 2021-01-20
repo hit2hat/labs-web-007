@@ -1,0 +1,18 @@
+.header {
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+    background: white;
+
+    &__brand {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--accent);
+        letter-spacing: 0.75px;
+    }
+
+    &__right {
+        margin-left: auto;
+    }
+}

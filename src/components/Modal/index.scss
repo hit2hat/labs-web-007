@@ -1,0 +1,38 @@
+.modal {
+    width: 500px;
+    height: 250px;
+    background: white;
+    border-radius: 3px;
+    padding: 25px;
+    user-select: none;
+
+    &__shadow {
+        top: 0;
+        position: absolute;
+        z-index: 99999;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, .5);
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 20px;
+    }
+
+    &__close {
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    &__content {
+        margin-top: 10px;
+    }
+}
